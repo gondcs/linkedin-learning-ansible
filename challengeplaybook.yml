@@ -1,0 +1,10 @@
+---
+- name: "challenge pip install"
+  hosts: localhost
+
+  tasks:
+   - name: pip ansible
+     pip:
+       name: ansible
+       virtualenv: /Users/gondelca/code/ansible-experiments/.venv
+
